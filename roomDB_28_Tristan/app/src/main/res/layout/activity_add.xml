@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddActivity"
+    android:orientation="vertical"
+    android:paddingTop="100dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:background="#D0E1F9">
+
+    <TextView
+        android:id="@+id/textAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bolditalicpop"
+        android:text="Ketik Pesanan Anda disini!"
+        android:textColor="@color/black"
+        android:paddingBottom="20dp"></TextView>
+
+    <TextView
+        android:id="@+id/textUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bolditalicpop"
+        android:text="Ubah Pesanan Anda disini!"
+        android:textColor="@color/black"
+        android:paddingBottom="20dp"></TextView>
+
+    <EditText
+        android:id="@+id/et_title"
+        android:paddingStart="10dp"
+        android:fontFamily="@font/regularpop"
+        android:background="@drawable/round_border"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Nama"></EditText>
+
+    <EditText
+        android:id="@+id/et_description"
+        android:paddingStart="10dp"
+        android:fontFamily="@font/regularpop"
+        android:background="@drawable/round_border"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:hint="Pesanan"></EditText>
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:fontFamily="@font/boldpop"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#4D648D"
+        android:text="Pesan"></Button>
+
+    <Button
+        android:id="@+id/button_update"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:fontFamily="@font/boldpop"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#4D648D"
+        android:text="pesan"></Button>
+
+</LinearLayout>
